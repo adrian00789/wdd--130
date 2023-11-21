@@ -32,8 +32,10 @@ nav a {
     text-align: center;
     color: #00158F;
     text-decoration: none;
-    padding: 35px;
-
+    padding: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 3px solid #00158F;
 }
 
 nav a:hover {
