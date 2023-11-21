@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,300&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 :root {
     --heading-font: "Roboto", "Josefin Sans";
     --paragraph-font: Inter, "Roboto Condensed";
@@ -8,6 +12,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+
 }
 
 
@@ -46,9 +51,19 @@ nav a:hover {
     margin-top: 100px;
 }
 
+
+.mt-50 {
+    margin-top: 50px;
+}
+
 #hero-msg h1,
 #hero-msg h4 {
     text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+
 }
 
 .button-box {
@@ -59,11 +74,6 @@ main section {
     text-align: center;
 }
 
-main section img {
-    box-sizing: border-box;
-}
-
-
 body {
     background-color: #b6b6b6cb;
     font-size: 22px;
@@ -73,22 +83,35 @@ body {
 
 header {
     background: #A4243B;
-
     display: grid;
     grid-template-columns: 150px auto;
 
 
 }
 
+.blockchild{
+    flex-basis: 100%;
+}
 .logo {
     width: 80px;
 
 }
 
+#blocks{
+        display: flex;
+        gap: 8%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
-
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 footer {
     background-color: #396E94;
@@ -229,8 +252,9 @@ button {
     right: 0;
     padding: .5em;
     /* make this element invisible until we are ready for it */
-    display: none;      
+    display: none;
 }
+
 .moveDown {
     margin-top: 3em;
 }
