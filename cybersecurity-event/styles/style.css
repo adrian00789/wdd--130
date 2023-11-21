@@ -61,6 +61,12 @@ nav a:hover {
     text-align: center;
 }
 
+.home-grid p{
+    font-family: var(--paragraph-font);
+}
+.home-grid h2{
+    font-family: var(--heading-font);
+}
 #hero-img {
     width: 100%;
 
